@@ -176,3 +176,7 @@
     justify-content: center;
     padding-top: 30px;
 }
+
+.item_dich_vu img {
+    width: 100%;
+}
