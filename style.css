@@ -180,3 +180,206 @@
 .item_dich_vu img {
     width: 100%;
 }
+
+.item_dia_danh img {
+    width: 100%;
+}
+
+.item_dia_danh {
+    position: relative;
+}
+
+.item_dia_danh_text {
+    position: absolute;
+    /* top: 0px; */
+    bottom: 2px;
+    color: white;
+    left: 20px;
+}
+
+.item_dia_danh_text h3 {
+    font-size: 20px !important;
+}
+
+.item_img img {
+    width: 68px;
+    height: 68px;
+}
+
+.item_img_delen {
+    position: absolute;
+    top: 0px;
+}
+
+.item_img_delen img {
+    width: 18px;
+    height: 22px;
+}
+
+.item_img {
+    position: relative;
+}
+
+.item_text {
+    flex-direction: column;
+    margin: 0px 0px 0px 12px;
+}
+
+.item_text p {
+    margin-top: 0px;
+    margin-bottom: 5px !important;
+}
+
+.item_text img {
+    width: 8px;
+    height: 10px;
+}
+
+.item_text span {
+    display: -webkit-box;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgb(255, 151, 53);
+    max-height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: start;
+    -webkit-line-clamp: 1;
+}
+
+.hoat_dong_item {
+    border: 1px solid;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.bg_item {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: rgb(233, 233, 233);
+    border-radius: 0px;
+    height: 88px;
+    width: 100%;
+    margin: 0px;
+    background-image: url(https://res.klook.com/image/upload/v1631673080/UED%20Team%EF%BC%88for%20DE%20only%EF%BC%89/Homepage/Ranking/bg_ranking_card.webp);
+}
+
+.cs_hoat_dong_item {
+    position: relative;
+    padding: 15px;
+}
+
+.cs_hoat_dong_text {
+    padding: 40px 0px 0px 15px;
+}
+
+.cs_hoat_dong_item::before {
+    width: 90%;
+    height: 1px;
+    position: absolute;
+    background: red;
+    content: " ";
+    top: 0px;
+    left: 5%;
+}
+
+.cs_trai_nghiem_text_bg {
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: rgb(233, 233, 233);
+    border-radius: 8px;
+    height: 300px;
+    width: 100%;
+    padding: 24px 24px 0px;
+    margin: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    background-image: url(http://res.klook.com/image/upload/fl_lossy.progressive,q_auto/w_746,h_600,c_fill/v1654675982/g3wzejniping5bp3ik8l.webp);
+}
+
+.cs_trai_nghiem_text_bg_1 {
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: rgb(233, 233, 233);
+    border-radius: 8px;
+    height: 300px;
+    width: 100%;
+    padding: 24px 24px 0px;
+    margin: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    background-image: url(http://res.klook.com/image/upload/fl_lossy.progressive,q_auto/w_746,h_600,c_fill/v1654676132/rzhkharpckpsgwthcy8u.webp);
+}
+
+.cs_trainghiem_buttom a {
+    background: white;
+    border-radius: 6px;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 20px;
+    color: #212121;
+}
+
+.cs_trainghiem_buttom {
+    display: flex;
+    /* align-items: end; */
+    margin-top: 65px;
+}
+
+.cs_banner {
+    background-image: url(https://res.klook.com/image/upload/fl_lossy.progressive,q_90,f_auto/v1640164462/jqcwwos9713lplamwbgb.jpg);
+    height: 400px;
+    position: relative;
+}
+
+.cs_banner_phone img {
+    width: 237px;
+    height: 321px;
+}
+
+.cs_banner_phone {
+    position: absolute;
+    bottom: 0px;
+    left: 72px;
+}
+
+.cs_banner_taixuong img {
+    width: 92px;
+    height: 28px;
+}
+
+.cs_banner_play img {
+    width: 92px;
+    height: 28px;
+}
+
+.taixuong_play {
+    display: flex;
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+}
+
+.banner_phone {
+    position: relative;
+}
+
+.cs_banner_taixuong {
+    padding-right: 15px;
+}
